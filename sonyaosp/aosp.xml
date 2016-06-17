@@ -7,7 +7,6 @@
 
   <project path="external/guava" name="SonyAosp/platform_external_guava" groups="pdk-cw-fs,pdk-fs" remote="github" revision="mm-6.0" />
   <project path="external/libnfc-nci" name="SonyAosp/platform_external_libnfc-nci" groups="pdk" remote="github" revision="mm-6.0" />
-  <project path="external/sepolicy" name="SonyAosp/platform_external_sepolicy" groups="pdk" remote="github" revision="mm-6.0" />
   <project path="external/tinyalsa" name="SonyAosp/platform_external_tinyalsa" groups="pdk" remote="github" revision="mm-6.0" />
   <project path="external/tinycompress" name="SonyAosp/platform_external_tinycompress" groups="pdk" remote="github" revision="mm-6.0" />
   <project path="external/toybox" name="SonyAosp/platform_external_toybox" groups="pdk" remote="github" revision="mm-6.0" />
@@ -31,7 +30,6 @@
   <project path="packages/services/Telephony" name="SonyAosp/platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" revision="mm-6.0" />
 
   <project path="system/core" name="SonyAosp/platform_system_core" groups="pdk" remote="github" revision="mm-6.0" />
-  <project path="system/extras" name="SonyAosp/platform_system_extras" groups="pdk" remote="github" revision="mm-6.0" />
 
   <project path="vendor/google" name="SonyAosp/vendor_google" groups="device" remote="github" revision="mm-6.0" >
     <copyfile src="build.sh" dest="rom-build.sh" />

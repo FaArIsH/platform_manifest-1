@@ -81,8 +81,6 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Tag" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
-  <remove-project name="platform/packages/services/Telecomm" />
-  <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/prebuilts/android-emulator" />
   <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />

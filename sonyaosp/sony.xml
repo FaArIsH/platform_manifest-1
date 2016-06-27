@@ -10,6 +10,9 @@
   <project path="device/sony/sepolicy" name="SonyAosp/device_sony_sepolicy" groups="device" remote="github" revision="n" />
   <project path="device/sony/common" name="SonyAosp/device_sony_common" groups="device" remote="github" revision="n" />
 
+  <project path="device/sony/loire" name="SonyAosp/device_sony_loire" groups="device" remote="github" revision="n" />
+  <project path="device/sony/suzu" name="SonyAosp/device_sony_suzu" groups="device" remote="github" revision="n" />
+
   <project path="device/sony/rhine" name="SonyAosp/device_sony_rhine" groups="device" remote="github" revision="n" />
   <project path="device/sony/honami" name="SonyAosp/device_sony_honami" groups="device" remote="github" revision="n" />
 

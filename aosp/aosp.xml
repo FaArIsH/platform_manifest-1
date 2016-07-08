@@ -3,7 +3,10 @@
 
   <remote  name="github"
            fetch="git://github.com/" />
-           
+  
+    <project name="i9192/platform_build" path="build" groups="pdk,tradefed" remote="github" revision="n" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+</project>         
   <project name="i9192/android_device_samsung_msm8930-common" path="device/samsung/msm8930-common" remote="github" revision="n" />
   <project name="i9192/android_device_samsung_serrano-common" path="device/samsung/serrano-common" remote="github" revision="n" />
   <project name="i9192/android_kernel_samsung_msm8930-common" path="kernel/samsung/msm8930-common" remote="github" revision="n" />

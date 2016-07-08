@@ -1,4 +1,4 @@
-# Sony Aosp #
+# Aosp #
 
 ## Grabbing the source ##
 
@@ -58,7 +58,3 @@ a large change that spans across multiple projects.
 
 $ repo sync PROJECT
 ```
-
-## Building ##
-
-Follow [This BuildScript](https://github.com/SonyAosp/vendor_google/blob/n/build.sh)

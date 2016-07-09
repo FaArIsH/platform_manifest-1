@@ -6,18 +6,11 @@
   
     <project name="i9192/platform_build" path="build" groups="pdk,tradefed" remote="github" revision="n" >
     <copyfile src="core/root.mk" dest="Makefile" />
-</project>         
-  <project name="i9192/android_device_samsung_msm8930-common" path="device/samsung/msm8930-common" remote="github" revision="n" />
-  <project name="i9192/android_device_samsung_serrano-common" path="device/samsung/serrano-common" remote="github" revision="n" />
+</project>
   <project name="i9192/android_kernel_samsung_msm8930-common" path="kernel/samsung/msm8930-common" remote="github" revision="n" />
-  <project name="i9192/android_device_samsung_serranodsdd" path="device/samsung/serranodsdd"  remote="github" revision="n" />
-  <project name="i9192/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="n" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-13.0" />
   <project name="i9192/android_vendor_samsung_serranodsdd" path="vendor/samsung/serranodsdd" remote="github" revision="n" />
-  <project name="i9192/android_device_qcom_common" path="device/qcom/common" remote="github" revision="n"/>
-  <project name="i9192/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="n" />
   <project name="CyanogenMod/android_external_stlport" path="external/stlport" revision="cm-13.0" remote="github" />
-  <project name="i9192/platform_vendor_aosp" path="vendor/aosp" remote="github" revision="n"/>
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="refs/tags/android-6.0.1_r46" />
   <project name="Evervolv/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="github" revision="mm-6.0" />
 

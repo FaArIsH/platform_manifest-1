@@ -7,6 +7,7 @@
     <project name="i9192/platform_build" path="build" groups="pdk,tradefed" remote="github" revision="n" >
     <copyfile src="core/root.mk" dest="Makefile" />
 </project>
+  <project name="SonyAosp/platform_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="n" />
   <project name="SonyAosp/device_sony_sepolicy" path="device/sony/sepolicy" remote="github" revision="n" />
   <project name="i9192/frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="n" />
   <project name="i9192/android_device_samsung_serranodsdd" path="device/samsung/serranodsdd"  remote="github" revision="n" /> 

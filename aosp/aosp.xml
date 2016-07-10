@@ -9,6 +9,7 @@
 </project>
   <project name="SonyAosp/device_sony_sepolicy" path="device/sony/sepolicy" remote="github" revision="n" />
   <project name="i9192/frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="n" />
+  <project name="i9192/android_device_samsung_serranodsdd" path="device/samsung/serranodsdd"  remote="github" revision="n" /> 
   <project name="i9192/android_kernel_samsung_msm8930-common" path="kernel/samsung/msm8930-common" remote="github" revision="n" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-13.0" />
   <project name="i9192/android_vendor_samsung_serranodsdd" path="vendor/samsung/serranodsdd" remote="github" revision="n" />

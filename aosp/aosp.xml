@@ -7,8 +7,9 @@
     <project name="i9192/platform_build" path="build" groups="pdk,tradefed" remote="github" revision="n" >
     <copyfile src="core/root.mk" dest="Makefile" />
 </project>
-  <project name="omnirom/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="android-6.0" />
-  <project name="omnirom/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="android-6.0" />
+  <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="cm-13.0-caf-8960" />
+  <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="cm-13.0-caf-8960" />
+  <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="cm-13.0-caf-8960" />
   <project name="SonyAosp/device_sony_sepolicy" path="device/sony/sepolicy" remote="github" revision="n" />
   <project name="i9192/frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="n" />
   <project name="i9192/android_device_samsung_serranodsdd" path="device/samsung/serranodsdd"  remote="github" revision="n" /> 

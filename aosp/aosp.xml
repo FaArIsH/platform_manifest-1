@@ -7,6 +7,8 @@
     <project name="i9192/platform_build" path="build" groups="pdk,tradefed" remote="github" revision="n" >
     <copyfile src="core/root.mk" dest="Makefile" />
 </project>
+  <project name="i9192/frameworks_native" path="frameworks/native" remote="github" revision="n" />
+  <project name="i9192/platform_system_core" path="system/core" remote="github" revision="n" />
   <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="cm-13.0-caf-8960" />
   <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="cm-13.0-caf-8960" />
   <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="cm-13.0-caf-8960" />

@@ -9,10 +9,17 @@
 </project>
   <project name="i9192/frameworks_native" path="frameworks/native" remote="github" revision="n" />
   <project name="i9192/platform_system_core" path="system/core" remote="github" revision="n" />
-  <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="cm-13.0-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8960" name="AOSP-JF-MM/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="msm8960-6.0-test" />
   <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="cm-13.0-caf-8960" />
-  <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="github" revision="cm-13.0-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8960" name="AOSP-JF-MM/android_hardware_qcom_media" groups="qcom" remote="github" revision="msm8960-6.0-test" />
   <project name="SonyAosp/device_sony_sepolicy" path="device/sony/sepolicy" remote="github" revision="n" />
+  <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="mm6.0" />
+  <project path="hardware/qcom/display-caf/apq8084" name="SlimRoms/hardware_qcom_display" remote="github" revision="mm6.0-caf-8084" />
+  <project path="hardware/qcom/display-caf/msm8660" name="SlimRoms/hardware_qcom_display" remote="github" revision="mm6.0-caf-8660" />
+  <project path="hardware/qcom/display-caf/msm8916" name="SlimRoms/hardware_qcom_display" remote="github" revision="mm6.0-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8974" name="SlimRoms/hardware_qcom_display" remote="github" revision="mm6.0-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="SlimRoms/hardware_qcom_display" remote="github" revision="mm6.0-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="SlimRoms/hardware_qcom_display" remote="github" revision="mm6.0-caf-8996" />
   <project name="i9192/frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="n" />
   <project name="i9192/android_device_samsung_serranodsdd" path="device/samsung/serranodsdd"  remote="github" revision="n" /> 
   <project name="i9192/android_kernel_samsung_msm8930-common" path="kernel/samsung/msm8930-common" remote="github" revision="n" />
